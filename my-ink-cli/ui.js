@@ -22,7 +22,7 @@ const App = ({name = 'me'}) => {
 
 	useEffect(() => {
 
-		const socketObj = socketIOClient('http://localhost:3003');
+		const socketObj = socketIOClient('http://localhost:3002');
 
 		setSocket(socketObj);
 

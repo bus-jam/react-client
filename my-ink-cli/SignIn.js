@@ -21,8 +21,10 @@ module.exports = ({signInHandler}) => {
 	});
 
 	return (
-		<Box borderStyle="double">
+		<Box flexDirection="column" borderStyle="double">
 			<Text>Sign In</Text>
+			<Text>Sign Up</Text>
 		</Box>
+		
 	);
 }
